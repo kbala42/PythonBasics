@@ -1,0 +1,8 @@
+dosya=open("kayitlar.txt", "r+")
+print(dosya.read(10))
+dosya.seek(10)
+dosya.write("bu kisim yeniden yazildi")
+dosya.seek(10)
+print(dosya.read(10))
+print(dosya.tell())
+dosya.close()

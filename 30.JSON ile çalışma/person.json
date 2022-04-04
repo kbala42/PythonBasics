@@ -1,0 +1,1 @@
+"\n{\n    \"firstName\":\"Sadýk\",\n    \"lastName\":\"Turan\",\n    \"hobbies\":[\"spor\",\"sinema\"],\n    \"age\":37,\n    \"children\":[\n        {\n            \"firstName\":\"Çýnar\",\n            \"age\":4         \n        },\n        {\n            \"firstName\":\"Ahmet\",\n            \"age\":2         \n        }\n\n    ]\n}\n"

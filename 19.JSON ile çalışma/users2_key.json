@@ -1,0 +1,11 @@
+{
+  "mehmetKonyali": {
+    "firstName": "Mehmet",
+    "lastName": "Konyali"
+  },
+  "hasanKonyali": {
+    "firstName": "Hasan",
+    "lastName": "Konyali",
+    "age": 25
+  }
+}

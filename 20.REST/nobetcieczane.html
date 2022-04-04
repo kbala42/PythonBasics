@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_1fbe35ee9cdd4472b13421a6fd8a95c2 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_1fbe35ee9cdd4472b13421a6fd8a95c2" ></div>
+        
+</body>
+<script>    
+    
+            var map_1fbe35ee9cdd4472b13421a6fd8a95c2 = L.map(
+                "map_1fbe35ee9cdd4472b13421a6fd8a95c2",
+                {
+                    center: [40.645485, 29.11852584],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_2721b5bf4184401bb4e9d87325c308b3 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_1fbe35ee9cdd4472b13421a6fd8a95c2);
+        
+    
+            var marker_2dd246efedd54a0ebef2ec2fd5947d52 = L.marker(
+                [40.645485, 29.11852584],
+                {}
+            ).addTo(map_1fbe35ee9cdd4472b13421a6fd8a95c2);
+        
+    
+            var icon_867cf757285a4cba80d6a6ee414d074a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2dd246efedd54a0ebef2ec2fd5947d52.setIcon(icon_867cf757285a4cba80d6a6ee414d074a);
+        
+    
+        var popup_469e71d9052441d1ab892316c24d75ec = L.popup({"maxWidth": "100%"});
+
+        
+            var html_54a190faa6ad49cdb482ef8d06e83fc2 = $(`<div id="html_54a190faa6ad49cdb482ef8d06e83fc2" style="width: 100.0%; height: 100.0%;">ÇINARCIK</div>`)[0];
+            popup_469e71d9052441d1ab892316c24d75ec.setContent(html_54a190faa6ad49cdb482ef8d06e83fc2);
+        
+
+        marker_2dd246efedd54a0ebef2ec2fd5947d52.bindPopup(popup_469e71d9052441d1ab892316c24d75ec)
+        ;
+
+        
+    
+</script>
